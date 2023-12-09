@@ -1,6 +1,7 @@
 #include "keyboard.h"
 #include "portmap.h"
 
+//Function reads keyboard inputs from the user
 uint8_t scan(void) {
 
      uint8_t brk;
